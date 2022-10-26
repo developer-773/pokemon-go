@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Pokemon Go</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="form__box">
+                <form class="form">
+                    <select class="style">
+                        <!-- <option class="style" value="types" opacity="0">Types</option> -->
+                        <option class="styles" value="All">All</option>
+                    </select>
+                    <select id="sort" class="style">
+                        <option class="styles" value="a-z">A-Z</option>
+                        <option class="styles" value="z-a">Z-A</option>
+                        <option class="styles" value="heavy">Heavy weight</option>
+                        <option class="styles" value="light">Light weight</option>
+                        <option class="styles" value="long">Long height</option>
+                        <option class="styles" value="short">Short height</option>
+                    </select>
+                    <input class="search" type="search">
+                    <button class="btn style" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="pokemons">
+            <div class="container">
+                <h1 style="color:#fff">Pokemon Go</h1>
+                <ul id="list" class="pokemons__list"></ul>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./pokemons.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
